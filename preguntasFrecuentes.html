@@ -4,60 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>Soporte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-<body>
     <header>
-        <img src="" alt="Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="quiensomos.html">¿Quiénes somos?</a></li>
-                <li><a href="institucionesAsociadas.html">Instituciones Asociadas</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-                <li><a href="soporte.html">Soporte</a></li>
-                <li><a href="ingresar">Ingresar</a></li>
-            </ul>
-        </nav>
+        <img src="" alt="">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="institucionesAsociadas.html">Instituciones Asociadas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiensomos.html">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="soporte.html">Soporte</a>
+            </li>
+            <nav class="navbar navbar-light ">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                  </form>
+                </div>
+            </nav>
+            <li class="nav-item">
+                <a href="login.html" class="btn btn-dark btn-lg" tabindex="-1" role="button" aria-disabled="true">Iniciar sesión</a>
+            </li>
+            
+        </ul>
     </header>
 
-    <main>
-    
-    <h2>Preguntas Frecuentes</h2>
-        <section>
-            <div>
-                <h2>Como?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?</p>
-            </div>  
-            <div>
-                <h2>Donde?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?</p>
-            </div>  
-            <div>
-                <h2>Cuando?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?</p>
+    <h2 style="text-align: center;" >Preguntas Frecuentes</h2>
+    <main class="container">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  ¿Como?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?
+                </div>
+              </div>
             </div>
-            <div>
-                <h2>Porque?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?</p>
-            </div>      
-        </section>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  ¿Donde? 
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  ¿Cuando?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    ¿Porque?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos reprehenderit ullam placeat tenetur quae nam vitae dolorum, maiores eum officia, soluta aperiam hic iusto itaque est praesentium nemo pariatur ad?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt libero officia rerum id praesentium placeat ratione enim, fugiat ab aspernatur dignissimos consequuntur quasi reiciendis accusantium repudiandae aliquam dolore magnam sed?
+                  </div>
+                </div>
+              </div>
+          </div>
+    
     </main>
-    <footer>
-        <div>
-            <section>
-                <article>
-                    <h2>Contacto</h2>
-                    <p>Aquí van varias lineas</p>
-                    <p>Donde va la información de contacto</p>
-                    <p>Como el teléfono y demás</p>
-                </article>
-            </section>
-        </div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
