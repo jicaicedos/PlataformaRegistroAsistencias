@@ -1,0 +1,26 @@
+.itemHeader {
+	background-image:url('https://fondosmil.com/fondo/4279.jpg');
+	background-repeat:no-repeat;
+	background-position:0% top;
+	background-size:cover;
+	background-attachment:scroll;
+	background-color:rgba(0,0,0,0);
+}
+.text-homeimage {
+	text-align:center;
+	color:rgb(255, 255, 255);
+	z-index:2;
+	position:relative;
+	font-size:75px;
+	line-height:90px;
+	text-transform:uppercase;
+	padding-top:190px;
+	padding-bottom:190px;
+	font-weight:700;
+	font-family:Dosis;
+}
+.subtext-image {
+	text-transform:none;
+	font-weight:100 !Important;
+
+}
