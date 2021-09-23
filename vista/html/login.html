@@ -7,30 +7,11 @@
     <title>Iniciar sesión</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <script src="../../modelo/dao/usuario.js"></script>
   </head>
 
 <body>
-  <!-- <h1>Inicio de sesión</h1>
-    <main class="container">
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Usuario</label>
-              <input type="username" class="form-control" id="exampleInputusername" aria-describedby="usernameHelp">
-              <div id="usernameHelp" class="form-text">Ingrese su Usuario.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordar Datos</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-          </form>
-    </main> -->
-
-    <header style="background-color: #E7F1FF">
+    <!-- <header style="background-color: #E7F1FF">
       <div class="p-3">
       <ul class="nav nav-pills">
           <li class="nav-item">
@@ -61,7 +42,7 @@
           </nav>          
       </ul>
   </div>
-  </header>
+  </header> -->
 
     <main class="container">
       <div class="d-flex justify-content-center h-100">
@@ -75,21 +56,20 @@
             
           </div>
           <div class="card-body">
-            <form>
-              <div >
-                                
-                <input type="text" class="form-control" placeholder="Nombre de usuario">
+            <form class="needs-validation" novalidate>
+              <div >                                
+                <input type="text" id="usuario" class="form-control" placeholder="Nombre de usuario" required>
                 <br>
-                <input type="password" class="form-control" placeholder="Constraseña">
+                <input type="password" id="password" class="form-control" placeholder="Constraseña" required>
               </div>
               
               <br>
               <div class="row align-items-center remember">
-                <input type="checkbox">Recordarme
+                <input type="checkbox" id="recordarme">Recordarme
               </div>
               <br>
               <div class="col text-center">
-                <button class="btn btn-primary regular-button">Incia sesión </button>
+                <button type="button" class="btn btn-primary regular-button" onclick="login()">Iniciar sesión </button>
               </div>	
             </form>
           </div>
@@ -101,8 +81,7 @@
           </div>
         </div>
       </div>
-    </main>
-     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </main> 
 </body>
+<script>iniciar()</script>
 </html>
