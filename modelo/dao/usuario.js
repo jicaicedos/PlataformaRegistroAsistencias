@@ -32,7 +32,10 @@ function login() {
             let band = false
             Usuarios.forEach(element => {
                 if( element.usuario==usuario && element.password ) {
-                    alert("Bienvenido: " + element.nombre + " " + element.apellido)
+                    // alert("Bienvenido: " + element.nombre + " " + element.apellido)
+                    if( element.usuario=="otascon") {
+                        window.location.href("HomeTeachers.html")
+                    }
                     band = true
                 }
             });

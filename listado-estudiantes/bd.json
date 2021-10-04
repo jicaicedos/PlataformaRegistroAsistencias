@@ -1,0 +1,149 @@
+[
+  {
+    "CODIGO": 1,
+    "PRIMER APELLIDO": "Arroyo",
+    "SEGUNDO APELLIDO": "Gutierrez",
+    "PRIMER NOMBRE": "Jonnier",
+    "SEGUNDO NOMBRE": "David"
+  },
+  {
+    "CODIGO": 2,
+    "PRIMER APELLIDO": "Beltran",
+    "SEGUNDO APELLIDO": "Moreno",
+    "PRIMER NOMBRE": "Nicol",
+    "SEGUNDO NOMBRE": "Andrea"
+  },
+  {
+    "CODIGO": 3,
+    "PRIMER APELLIDO": "Cede�o",
+    "SEGUNDO APELLIDO": "Gerdez",
+    "PRIMER NOMBRE": "Fernando",
+    "SEGUNDO NOMBRE": "Jose"
+  },
+  {
+    "CODIGO": 4,
+    "PRIMER APELLIDO": "Giraldo",
+    "SEGUNDO APELLIDO": "Gomez",
+    "PRIMER NOMBRE": "Alizon",
+    "SEGUNDO NOMBRE": "Jhoana"
+  },
+  {
+    "CODIGO": 5,
+    "PRIMER APELLIDO": "Gonzalez",
+    "SEGUNDO APELLIDO": "Morales",
+    "PRIMER NOMBRE": "Jonathan",
+    "SEGUNDO NOMBRE": "David"
+  },
+  {
+    "CODIGO": 6,
+    "PRIMER APELLIDO": "Marulanda",
+    "SEGUNDO APELLIDO": "Gonzalez",
+    "PRIMER NOMBRE": "Luisa",
+    "SEGUNDO NOMBRE": "Fernanda"
+  },
+  {
+    "CODIGO": 7,
+    "PRIMER APELLIDO": "Molina",
+    "SEGUNDO APELLIDO": "Juan",
+    "PRIMER NOMBRE": "David",
+    "SEGUNDO NOMBRE": ""
+  },
+  {
+    "CODIGO": 8,
+    "PRIMER APELLIDO": "Monsalve",
+    "SEGUNDO APELLIDO": "Gaviria",
+    "PRIMER NOMBRE": "Michelle",
+    "SEGUNDO NOMBRE": "Alejandra"
+  },
+  {
+    "CODIGO": 9,
+    "PRIMER APELLIDO": "Mosquera",
+    "SEGUNDO APELLIDO": "Cantero",
+    "PRIMER NOMBRE": "Juan",
+    "SEGUNDO NOMBRE": "Felipe"
+  },
+  {
+    "CODIGO": 10,
+    "PRIMER APELLIDO": "Nu�ez",
+    "SEGUNDO APELLIDO": "Nasmin",
+    "PRIMER NOMBRE": "Dilan",
+    "SEGUNDO NOMBRE": "Alejandro"
+  },
+  {
+    "CODIGO": 11,
+    "PRIMER APELLIDO": "Ocampo",
+    "SEGUNDO APELLIDO": "Gonzalez",
+    "PRIMER NOMBRE": "Maria",
+    "SEGUNDO NOMBRE": "Luisa"
+  },
+  {
+    "CODIGO": 12,
+    "PRIMER APELLIDO": "Orobio",
+    "SEGUNDO APELLIDO": "Silva",
+    "PRIMER NOMBRE": "Cristian",
+    "SEGUNDO NOMBRE": "Javier"
+  },
+  {
+    "CODIGO": 13,
+    "PRIMER APELLIDO": "Palacios",
+    "SEGUNDO APELLIDO": "Torres",
+    "PRIMER NOMBRE": "Jonathan",
+    "SEGUNDO NOMBRE": "David"
+  },
+  {
+    "CODIGO": 14,
+    "PRIMER APELLIDO": "Pe�aranda",
+    "SEGUNDO APELLIDO": "Orejuela",
+    "PRIMER NOMBRE": "Anghelic",
+    "SEGUNDO NOMBRE": "Suray"
+  },
+  {
+    "CODIGO": 15,
+    "PRIMER APELLIDO": "Rivas",
+    "SEGUNDO APELLIDO": "Ibarguen",
+    "PRIMER NOMBRE": "Jairo",
+    "SEGUNDO NOMBRE": "Ronaldo"
+  },
+  {
+    "CODIGO": 16,
+    "PRIMER APELLIDO": "Rivera",
+    "SEGUNDO APELLIDO": "Ramirez",
+    "PRIMER NOMBRE": "Diego",
+    "SEGUNDO NOMBRE": "Fernando"
+  },
+  {
+    "CODIGO": 17,
+    "PRIMER APELLIDO": "Rodriguez",
+    "SEGUNDO APELLIDO": "Vivas",
+    "PRIMER NOMBRE": "Luis",
+    "SEGUNDO NOMBRE": "Miguel"
+  },
+  {
+    "CODIGO": 18,
+    "PRIMER APELLIDO": "Suarez",
+    "SEGUNDO APELLIDO": "Cuaspud",
+    "PRIMER NOMBRE": "Maria",
+    "SEGUNDO NOMBRE": "Luisa"
+  },
+  {
+    "CODIGO": 19,
+    "PRIMER APELLIDO": "Vallecilla",
+    "SEGUNDO APELLIDO": "Rengifo",
+    "PRIMER NOMBRE": "Humberto",
+    "SEGUNDO NOMBRE": ""
+  },
+  {
+    "CODIGO": 20,
+    "PRIMER APELLIDO": "Vargas",
+    "SEGUNDO APELLIDO": "Hurtado",
+    "PRIMER NOMBRE": "Juan",
+    "SEGUNDO NOMBRE": "David"
+  },
+  {
+    "CODIGO": 21,
+    "PRIMER APELLIDO": "Viveros",
+    "SEGUNDO APELLIDO": "Caicedo",
+    "PRIMER NOMBRE": "Juan",
+    "SEGUNDO NOMBRE": "Sebastian"
+  }
+]
