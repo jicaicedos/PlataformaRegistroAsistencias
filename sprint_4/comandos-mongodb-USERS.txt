@@ -1,0 +1,59 @@
+/* Creamos la base de datos */
+use plataformaregistroasistencias;
+
+/* Realizamos registros de los usuarios del sistema */
+db.users.insert({nombre: "Oscar", apellido: "Tascon", cedula: 16379276, usuario: "otascon", password: "11111111", rol: "Administrador"}),
+db.users.insert({nombre: "Anngie", apellido: "Ospina", cedula: 1053859237, usuario: "aospina", password: "222222222", rol: "Docente"}),
+db.users.insert({nombre: "Nancy", apellido: "Quintero", cedula: 1053834493, usuario: "nquintero", password: "33333333", rol: "Docente"}),
+db.users.insert({nombre: "Oscar", apellido: "Fuentes", cedula: 74186115, usuario: "ofuentes", password: "44444444", rol: "Alumno"}),
+db.users.insert({nombre: "Javier", apellido: "Caicedo", cedula: 83040450, usuario: "jcaicedo",password: "55555555", rol: "Padre de familia"})
+
+/* Observamos los datos de la base de datos */
+db.users.find().pretty();
+
+
+{
+        "_id" : ObjectId("615bb6859e03afe72052dffd"),
+        "nombre" : "Oscar",
+        "apellido" : "Tascon",
+        "cedula" : 16379276,
+        "usuario" : "otascon",
+        "password" : "11111111",
+        "rol" : "Administrador"
+}
+{
+        "_id" : ObjectId("615bb70d9e03afe72052dffe"),
+        "nombre" : "Anngie",
+        "apellido" : "Ospina",
+        "cedula" : 1053859237,
+        "usuario" : "aospina",
+        "password" : "222222222",
+        "rol" : "Docente"
+}
+{
+        "_id" : ObjectId("615bb70d9e03afe72052dfff"),
+        "nombre" : "Nancy",
+        "apellido" : "Quintero",
+        "cedula" : 1053834493,
+        "usuario" : "nquintero",
+        "password" : "33333333",
+        "rol" : "Docente"
+}
+{
+        "_id" : ObjectId("615bb70d9e03afe72052e000"),
+        "nombre" : "Oscar",
+        "apellido" : "Fuentes",
+        "cedula" : 74186115,
+        "usuario" : "ofuentes",
+        "password" : "44444444",
+        "rol" : "Alumno"
+}
+{
+        "_id" : ObjectId("615bb70d9e03afe72052e001"),
+        "nombre" : "Javier",
+        "apellido" : "Caicedo",
+        "cedula" : 83040450,
+        "usuario" : "jcaicedo",
+        "password" : "55555555",
+        "rol" : "Padre de familia"
+}
